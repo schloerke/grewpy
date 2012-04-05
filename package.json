@@ -1,7 +1,7 @@
 {
   "name"       : "grewpy",
   "description": "A simple flow control library for node.js for executing multiple functions as a group or in a chain, calling back when all functions have finished.",
-  "version"    : "0.1.1",
+  "version"    : "0.1.2",
 
   "author"      : "Barret Schloerke <schloerke+github@gmail.com>",
   "contributors": [
@@ -16,7 +16,9 @@
   },
 
   "main"   : "./lib/grewpy.js",
-  "engines": { "node" : ">=0.1.101" },
+  "engines": {
+    "node": ">=0.4.0"
+  },
 
   "devDependencies": {
     "coffee-script": "1.2.0"
