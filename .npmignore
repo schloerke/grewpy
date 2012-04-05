@@ -1,0 +1,6 @@
+.git*
+tests/
+Makefile
+README.md
+node_modules/
+lib/coffee/
