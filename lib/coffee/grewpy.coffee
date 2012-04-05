@@ -4,7 +4,7 @@
 
 wrong_format_for = (fnTitle) ->
   return ->
-    throw "#{ fnTitle } must be called with the following format: grewpie.#{ fnTitle }([arrayOfFns], [callback])"
+    throw "#{ fnTitle } must be called with the following format: grewpy.#{ fnTitle }([arrayOfFns], [callback])"
 
 args_to_status = (title, args) ->
   wrong_format = wrong_format_for(title)
