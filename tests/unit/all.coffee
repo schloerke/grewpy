@@ -10,7 +10,7 @@ add_test = ({method, values, valuesTitle, timeout, formationState}) ->
 
   timeout ?= null
 
-  methodTitle = [method, valuesTitle, timeout, "(" + formationState + ")"].join("_")
+  methodTitle = [method, valuesTitle, timeout ? "null", "(" + formationState + ")"].join("_")
 
   fn = null
   calls = 0
