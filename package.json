@@ -9,15 +9,10 @@
     { "name": "Alex Wolfe"      , "email": "alexkwolfe@gmail.com" }
   ],
 
-  "homepage"   : "http://github.com/schloerke/groupie",
+  "homepage"   : "http://github.com/schloerke/grewpy",
   "repository" : {
     "type": "git",
-    "url" : "http://github.com/schloerke/groupie.git"
-  },
-
-  "bugs": {
-    "mail": "alexkwolfe@gmail.com",
-    "url" : "http://github.com/alexkwolfe/groupie/issues"
+    "url" : "http://github.com/schloerke/grewpy.git"
   },
 
   "main"   : "./lib/grewpy.js",
@@ -33,6 +28,6 @@
 
   "licenses" : [ {
     "type": "MIT",
-    "url" : "http://github.com/alexkwolfe/groupie/raw/master/LICENSE"
+    "url" : "http://github.com/alexkwolfe/grewpy/raw/master/LICENSE"
   } ]
 }
