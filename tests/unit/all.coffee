@@ -148,8 +148,8 @@ grewpy.two_worker = (args...) ->
 for timeout in [null, 50]
   for [values, valuesTitle] in valueArr
     for [method, expectedTime] in [
-      ["chain_worker", values.length]
-      ["group_worker", 1]
+      ["chain", values.length]
+      ["group", 1]
       ["two_worker", values.length / 2]
     ]
       for formationState in [

@@ -240,12 +240,12 @@ exports.worker = (args...) ->
 
 
 
-exports.group_worker = (args...) ->
+exports.group = (args...) ->
   args.push(-1)
   return exports.worker.apply(null, args)
 
 
-exports.chain_worker = (args...) ->
+exports.chain = (args...) ->
   args.push(1)
   return exports.worker.apply(null, args)
 
