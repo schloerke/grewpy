@@ -6,7 +6,7 @@ calling back when all functions have finished.
 
 ## Installation
 
-[![Build Status](https://secure.travis-ci.org/schloerke/grewpy.png)](http://travis-ci.org/schloerke/grewpy)[Travis public CI](http://travis-ci.org)
+[![Build Status](https://secure.travis-ci.org/schloerke/grewpy.png)](http://travis-ci.org/schloerke/grewpy)[Travis public CI](http://travis-ci.org/schloerke/grewpy)
 
 ```bash
 npm install grewpy
